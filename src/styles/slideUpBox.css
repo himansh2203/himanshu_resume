@@ -1,0 +1,32 @@
+/* Slide-up animation */
+.slide-up {
+  animation: slideUp 5s ease-out forwards;
+  opacity: -10;
+  transform: translateY(50px);
+  -webkit-animation: slideUp 5s ease-out forwards;
+  background-color: transparent;
+}
+
+/* Keyframes for the animation */
+@keyframes slideUp {
+  to {
+    opacity: 20;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+}
+
+/* Styling for the box */
+.box {
+  
+  color: brown;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}

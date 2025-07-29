@@ -1,9 +1,8 @@
-import "../styles/aboutUs.css";
+import "../styles/slideUpBox.css";
 
-function AboutUs() {
+function SlideUpBox() {
   return (
-    <div className="about-us">
-      <h1>About me</h1>
+    <div className="slide-up box">
       <p>
         Results-driven Software Engineer with 2 years of experience in building
         scalable, cost-effective solutions. Skilled in full-stack development,
@@ -14,4 +13,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default SlideUpBox;
