@@ -1,6 +1,11 @@
 import "../styles/contactUs.css"; // Import the CSS file
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons"; // Social media icons
+import {
+  faInstagram,
+  faFacebook,
+  faLinkedin,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons"; // Social media icons
 import {
   faMapMarkerAlt,
   faPhone,
@@ -36,26 +41,26 @@ function ContactUs() {
           </div>
 
           <div className="contact-item">
-            <FontAwesomeIcon icon={faInstagram} className="icon" />
+            <FontAwesomeIcon icon={faLinkedin} className="icon" />
             <span>
               <a
-                href="https://www.instagram.com/easylifecare"
+                href="https://www.linkedin.com/in/himanshu-singh-423391258/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Instagram
+                Linkedin
               </a>
             </span>
           </div>
           <div className="contact-item">
-            <FontAwesomeIcon icon={faFacebook} className="icon" />
+            <FontAwesomeIcon icon={faGithub} className="icon" />
             <span>
               <a
-                href="https://www.facebook.com/easylifecare"
+                href="https://github.com/himansh2203"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                Github
               </a>
             </span>
           </div>
@@ -65,7 +70,7 @@ function ContactUs() {
         <div className="map-container">
           <iframe
             title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112131.02808134654!2d77.2197711!3d28.6326347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd3726fdcbff%3A0x1e3a869be3756341!2sBlock%20M%2C%20Connaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1715866617031!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3511.3997537079695!2d77.32619067408143!3d28.346761447003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdb8341b880a5%3A0x719dd76d586d85f7!2sRaja%20Nahar%20Singh%20Colony%2C%20Ballabhgarh%2C%20Faridabad%2C%20Haryana%20121004!5e0!3m2!1sen!2sin!4v1753792822011!5m2!1sen!2sin"
             width="100%"
             height="250"
             style={{ border: 0 }}

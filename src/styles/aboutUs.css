@@ -1,0 +1,160 @@
+.about-us {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.main-heading::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #5c6bc0;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+ul li:hover {
+  transform: translateY(-5px);
+}
+
+.date {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.icon {
+  color: #5c6bc0;
+  font-size: 1.2rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Medium screens: tablets and small laptops */
+@media (max-width: 992px) {
+  .about-us {
+    padding: 1.5rem;
+    max-width: 90%;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Small screens: smartphones */
+@media (max-width: 768px) {
+  .about-us {
+    padding: 1.2rem;
+    max-width: 95%;
+  }
+
+  .main-heading {
+    font-size: 1.8rem;
+  }
+
+  .intro-text {
+    font-size: 0.95rem;
+  }
+
+  .section h2 {
+    font-size: 1.2rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul li {
+    font-size: 0.95rem;
+    padding: 0.8rem;
+  }
+
+  .icon {
+    font-size: 1rem;
+  }
+}
+
+/* Extra small screens: very narrow phones */
+@media (max-width: 480px) {
+  .about-us {
+    padding: 1rem;
+  }
+
+  .main-heading {
+    font-size: 1.5rem;
+  }
+
+  .intro-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .section h2 {
+    font-size: 1.1rem;
+  }
+
+  ul li {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+}

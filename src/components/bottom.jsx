@@ -18,7 +18,7 @@ function Bottom() {
       </div>
 
       <div className="bottom-about">
-        <div className="bottom-about-title">Why to hire me?</div>
+        <div className="bottom-about-title">Why do hire me?</div>
         <div className="bottom-about-text">
           I have Knowledge of HTML, CSS, React, Java , Spring-boot and SQL. I am
           a quick learner and can adapt to new technologies easily. I am

@@ -11,7 +11,6 @@ function Home() {
         <center>Hi, Welcome Guys</center>
       </h1>
       <SlideUpBox />
-      <p>This is a simple home page.</p>
       <VideoSlider />
     </div>
   );

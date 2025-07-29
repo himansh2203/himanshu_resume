@@ -27,11 +27,6 @@ const Navbar = () => {
           <li>
             <Link to="/">Home</Link>
           </li>
-          <li
-            onMouseEnter={toggleDropdown}
-            onMouseLeave={toggleDropdown}
-            className="dropdown-parent"
-          ></li>
           <li>
             <Link to="/aboutUs">About</Link>
           </li>
