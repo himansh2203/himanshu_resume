@@ -15,6 +15,62 @@ function AboutUs() {
 
       <div className="about-edu section">
         <h2>
+          <FaGraduationCap className="icon" /> Skills
+        </h2>
+        <ul>
+          <li>
+            <strong>Programming Languages:</strong>
+            <br />
+            Java <span className="date"></span>
+          </li>
+          <li>
+            <strong>Frameworks & CMS:</strong>
+            <br />
+            SpringBoot, React.js <span className="date"></span>
+          </li>
+          <li>
+            <strong>Concept</strong>
+            <br />
+            Core Java, Advance java, Rest APIs, OOPs, Agile methodology{" "}
+            <span className="date"></span>
+          </li>
+          <li>
+            <strong>Security: </strong>
+            <br />
+            Spring Security <span className="date"></span>
+          </li>
+          <li>
+            <strong>Build Tool: </strong>
+            <br />
+            Apache Maven <span className="date"></span>
+          </li>
+          <li>
+            <strong>API Testing:</strong>
+            <br />
+            PostMan
+            <span className="date"></span>
+          </li>
+          <li>
+            <strong>Version Control: </strong>
+            <br />
+            GitHub, Bitbucket <span className="date"></span>
+          </li>
+          <li>
+            <strong>Operating Systems:</strong>
+            <br />
+            Windows <span className="date"></span>
+          </li>
+          <li>
+            <strong>IDE:</strong>
+            <br />
+            Eclipse, STS, Visual Studio code
+            <span className="date"></span>
+          </li>
+        </ul>
+      </div>
+
+      <div className="about-edu section">
+        <h2>
           <FaGraduationCap className="icon" /> Education
         </h2>
         <ul>
