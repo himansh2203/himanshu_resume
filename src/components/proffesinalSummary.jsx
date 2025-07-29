@@ -12,11 +12,13 @@ function Proffesinal() {
           <div className="timeline-content">
             <h3>Intern – Craft Code Learnings</h3>
             <span className="timeline-date">Nov 2024 – April 2025</span>
-            <p>
-              Gained hands-on experience in Java and Spring Boot through
-              building projects and mastering backend concepts in a
-              learning-oriented environment.
-            </p>
+            <ul>
+              <li>
+                Gained hands-on experience in Java and Spring Boot through
+                building projects and mastering backend concepts in a
+                learning-oriented environment.
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -59,10 +61,12 @@ function Proffesinal() {
           <div className="timeline-content">
             <h3>Intern – Hughes Systique Corporation, Gurgaon</h3>
             <span className="timeline-date">Jan 2022 – March 2022</span>
-            <p>
-              Assisted in development tasks and gained practical experience in
-              Java and Spring Boot in a corporate environment.
-            </p>
+            <ul>
+              <li>
+                Assisted in development tasks and gained practical experience in
+                Java and Spring Boot in a corporate environment.
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -73,10 +77,12 @@ function Proffesinal() {
           <div className="timeline-content">
             <h3>Intern – IBM, Noida</h3>
             <span className="timeline-date">Jun 2019 – July 2019</span>
-            <p>
-              Assisted in Android app development tasks and gained practical
-              experience in Android applications.
-            </p>
+            <ul>
+              <li>
+                Assisted in Android app development tasks and gained practical
+                experience in Android applications.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
