@@ -8,6 +8,7 @@ import Navbar from "./components/navbar"; // Import the Navbar component
 import Footer from "./components/footer";
 import Bottom from "./components/bottom";
 import WhatsApp from "./components/whatsApp";
+import ChatBot from "./components/chatBot"; // Import the ChatBot component
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/aboutUs" element={<AboutUs />} />
         </Routes>
         <WhatsApp />
+        <ChatBot />
         <Bottom />
         <Footer />
       </Router>
