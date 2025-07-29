@@ -23,13 +23,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: white;
-  padding: 10px;
-  border-radius: 50%;
-  border: 2px solid #5c6bc0;
-  font-size: 24px;
   z-index: 10;
+
+  /* Removed background, border, padding */
+  background: none;
+  padding: 0;
+  border: none;
+  border-radius: 0;
 }
+
 
 .steps-wrapper {
   position: relative;
