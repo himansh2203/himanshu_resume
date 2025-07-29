@@ -3,18 +3,20 @@ import "../styles/aeroplane.css";
 import { Plane } from "lucide-react"; // ✅ Fix applied here
 
 const steps = [
-  { text: "Intern , Code Craft Learning", side: "left" },
+  { text: "Java Sprin-boot Dev Intern , Code Craft Learning", side: "left" },
   { text: "Free Lancing Projects For Clients", side: "right" },
   { text: "Associate Developer , Hughes Systique Corporation", side: "left" },
+  { text: "Android Intern  , IBM", side: "right" },
+
   {
     text: "B.Tech in Computer Science , Kurukshetra University",
-    side: "right",
+    side: "left",
   },
   {
     text: "Senior Secondary (CBSE) ,Tagore Academy Public School",
-    side: "left",
+    side: "right",
   },
-  { text: "Secondary (CBSE) ,Tagore Academy Public School", side: "right" },
+  { text: "Secondary (CBSE) ,Tagore Academy Public School", side: "left" },
 ];
 
 const Aeroplane = () => {

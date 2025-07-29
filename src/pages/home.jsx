@@ -3,6 +3,8 @@ import Slideshow from "../components/imageSlider";
 import VideoSlider from "../components/videoSlider"; // Import the VideoSlider component
 import SlideUpBox from "../components/sildeUpBox"; // Import the Aeroplane component
 import Aeroplane from "../components/aeroplane";
+import Proffesinal from "../components/proffesinalSummary";
+import Project from "../components/project";
 
 function Home() {
   return (
@@ -14,6 +16,8 @@ function Home() {
       <SlideUpBox />
       <VideoSlider />
       <Aeroplane />
+      <Proffesinal />
+      <Project />
     </div>
   );
 }
