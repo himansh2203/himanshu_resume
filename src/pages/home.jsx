@@ -14,7 +14,6 @@ function Home() {
         <center>Hi, Welcome Guys</center>
       </h1>
       <SlideUpBox />
-      <VideoSlider />
       <Aeroplane />
       <Proffesinal />
       <Project />

@@ -9,12 +9,16 @@ import Footer from "./components/footer";
 import Bottom from "./components/bottom";
 import WhatsApp from "./components/whatsApp";
 import ChatBot from "./components/chatBot"; // Import the ChatBot component
+import ParticlesBackground from "./components/particleBackground"; // Import the ParticlesBackground component
+import DotNetwork from "./components/dotNetwork";
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        <ParticlesBackground />
+        <DotNetwork />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<ContactUs />} />

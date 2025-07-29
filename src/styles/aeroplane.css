@@ -1,11 +1,11 @@
 /* Base Styles */
 .timeline-container {
   position: relative;
-  width: 100%;
-  max-width: 2000px;
+  width: 80%;
+  max-width: 1000px;
   margin: auto;
   padding: 5rem 0;
-  background-color: #f0f0f0;
+  background-color: transparent;
 }
 
 .plane-line {
