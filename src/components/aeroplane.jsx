@@ -3,11 +3,12 @@ import "../styles/aeroplane.css";
 import { Plane } from "lucide-react"; // ✅ Fix applied here
 
 const steps = [
-  { text: "Landing Page Ready", side: "left" },
-  { text: "About Section Done", side: "right" },
-  { text: "Services Connected", side: "left" },
-  { text: "Testimonials Setup", side: "right" },
-  { text: "Contact Integrated", side: "left" },
+  { text: "Spring-boot", side: "left" },
+  { text: "Java", side: "right" },
+  { text: "SQL", side: "left" },
+  { text: "React-js", side: "right" },
+  { text: "HTML", side: "left" },
+  { text: "CSS", side: "right" },
 ];
 
 const Aeroplane = () => {
