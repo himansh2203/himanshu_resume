@@ -6,11 +6,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
-  const [servicesDropdown, setServicesDropdown] = useState(false);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
   const toggleDarkMode = () => setDarkMode(!darkMode);
-  const toggleDropdown = () => setServicesDropdown(!servicesDropdown);
 
   useEffect(() => {
     document.body.className = darkMode ? "dark" : "";
