@@ -102,7 +102,7 @@
 
   .timeline-content {
     width: 100%;
-    padding: 16px;
+    padding: 5px;
   }
 
   .timeline-title {
@@ -128,7 +128,7 @@
   }
 
   .timeline-content {
-    padding: 14px;
+    padding: 0px;
   }
 
   .timeline-content h3 {

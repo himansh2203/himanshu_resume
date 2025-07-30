@@ -8,13 +8,15 @@ function DotNetwork() {
     function resizeCanvas() {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
+      canvas.style.width = `${window.innerWidth}px`;
+      canvas.style.height = `${window.innerHeight}px`;
     }
 
     resizeCanvas();
     window.addEventListener("resize", resizeCanvas);
 
     const dots = [];
-    const dotCount = 100;
+    const dotCount = window.innerWidth < 768 ? 40 : 100;
 
     for (let i = 0; i < dotCount; i++) {
       dots.push({
@@ -26,7 +28,6 @@ function DotNetwork() {
     }
 
     const mouse = { x: null, y: null };
-
     window.addEventListener("mousemove", (e) => {
       mouse.x = e.clientX;
       mouse.y = e.clientY;
@@ -45,7 +46,7 @@ function DotNetwork() {
         const dx = dot.x - mouse.x;
         const dy = dot.y - mouse.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
-        if (distance < 100) {
+        if (distance < 100 && mouse.x !== null && mouse.y !== null) {
           dot.x += dx / distance;
           dot.y += dy / distance;
         }
@@ -86,9 +87,10 @@ const canvasStyle = {
   position: "fixed",
   top: 0,
   left: 0,
-  zIndex: -1,
   width: "100vw",
   height: "100vh",
+  zIndex: 0,
+  pointerEvents: "none",
 };
 
 export default DotNetwork;
