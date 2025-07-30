@@ -3,7 +3,7 @@ import "../styles/aeroplane.css";
 import { Plane } from "lucide-react"; // ✅ Fix applied here
 
 const steps = [
-  { text: "Java Sprin-boot Dev Intern , Code Craft Learning", side: "left" },
+  { text: "Java Spring-boot Intern , Code Craft Learning", side: "left" },
   { text: "Free Lancing Projects For Clients", side: "right" },
   { text: "Associate Developer , Hughes Systique Corporation", side: "left" },
   { text: "Android Intern  , IBM", side: "right" },
